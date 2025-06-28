@@ -1,1 +1,150 @@
-t
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  background: #fff;
+  color: #222;
+  line-height: 1.6;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 5%;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+nav a:hover {
+  color: #555;
+}
+
+.icons span {
+  margin-left: 15px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 5%;
+  flex-wrap: wrap;
+}
+.hero-text {
+  flex: 1;
+  max-width: 500px;
+}
+.hero-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+.hero-text .sub {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.hero-text .desc {
+  margin: 15px 0;
+  color: #555;
+}
+.btn {
+  display: inline-block;
+  background: #333;
+  color: #fff;
+  padding: 12px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+.btn:hover {
+  background: #555;
+}
+.hero-img img {
+  width: 300px;
+  max-width: 100%;
+}
+
+.sobre {
+  display: flex;
+  gap: 40px;
+  padding: 50px 5%;
+  flex-wrap: wrap;
+  background-color: #f7f7f7;
+}
+.sobre img {
+  width: 300px;
+}
+.sobre-texto {
+  flex: 1;
+  min-width: 280px;
+}
+.sobre-texto h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+.sobre-texto ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+.sobre-texto li {
+  margin-bottom: 8px;
+}
+
+.beneficios {
+  text-align: center;
+  padding: 50px 5%;
+}
+.beneficios h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.card {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 20px;
+  width: 280px;
+  transition: transform 0.3s;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+.card span {
+  font-size: 2rem;
+}
+.card h3 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  background: #f0f0f0;
+  font-size: 0.9rem;
+}
