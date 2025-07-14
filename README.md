@@ -1,2 +1,2 @@
 # site
-https://fabiozelak.github.io/site/
+https://fabiozelak.github.io/SpinUp/
